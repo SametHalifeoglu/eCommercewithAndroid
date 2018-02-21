@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sirket.javaloper.androidapp.GirisYap">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="GİRİŞ YAP"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/userMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/userPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/userMail"
+        android:layout_below="@+id/userMail"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/userEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="GİRİŞ YAP"
+        android:textSize="18sp" />
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sirket.javaloper.androidapp.Guncel_Kategori">
+
+
+
+    <TextView
+        android:id="@+id/txtBaslik1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/kategoriGrid"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="16dp"
+        android:text="Text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtBaslik2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/kategoriGrid"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@+id/txtBaslik1"
+        android:text="Text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtBaslik3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/kategoriGrid"
+        android:layout_marginEnd="26dp"
+        android:layout_toStartOf="@+id/txtBaslik4"
+        android:text="Text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtBaslik4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtBaslik3"
+        android:layout_alignBottom="@+id/txtBaslik3"
+        android:layout_alignEnd="@+id/kategoriGrid"
+        android:layout_marginEnd="17dp"
+        android:text="Text"
+        android:textSize="18sp" />
+
+    <GridView
+        android:id="@+id/kategoriGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtBaslik1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:columnWidth="100dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth" />
+</RelativeLayout>

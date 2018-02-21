@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="title_activity_uygulama_sayfasi">Falcon Heavy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_beni_hatirla">Falcon Heavy</string>
+    <string name="sepet">Sepetim</string>
+</resources>

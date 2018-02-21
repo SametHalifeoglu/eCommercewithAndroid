@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kayit_ol"
+            android:icon="@drawable/kayit"
+            android:title="Kayıt Ol" />
+        <item
+            android:id="@+id/nav_giris_yap"
+            android:icon="@drawable/giris"
+            android:title="Giriş Yap" />
+        <item
+            android:id="@+id/nav_sepetim"
+            android:icon="@drawable/sepet"
+            android:title="Sepetim" />
+        <item
+            android:id="@+id/nav_ara"
+            android:icon="@drawable/ara"
+            android:title="Ara" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_cikis"
+                android:icon="@drawable/cikis"
+                android:title="Çıkış Yap" />
+        </menu>
+    </item>
+
+</menu>

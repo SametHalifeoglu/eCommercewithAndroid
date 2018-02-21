@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sirket.javaloper.androidapp.KayitOl">
+
+
+    <EditText
+        android:id="@+id/txtAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginEnd="74dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Adınız"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtAd"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="28dp"
+        android:text="KAYIT OL"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtSoyad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtAd"
+        android:layout_below="@+id/txtAd"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Soyadınız"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtSoyad"
+        android:layout_below="@+id/txtSoyad"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Telefon"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/txtMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtTel"
+        android:layout_below="@+id/txtTel"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtSifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtMail"
+        android:layout_below="@+id/txtMail"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Sifre"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnKayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_below="@+id/txtSifre"
+        android:layout_marginTop="25dp"
+        android:text="KAYIT OL" />
+</RelativeLayout>

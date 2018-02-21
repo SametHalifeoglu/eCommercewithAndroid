@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/siparis_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal">
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/scrolll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="480dp">
+
+            <GridView
+                android:id="@+id/Siparis_Grid"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:columnWidth="100dp"
+                android:stretchMode="columnWidth"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="10dp" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/beyaz"
+        android:backgroundTint="@android:color/background_light"
+        android:layout_alignBottom="@id/scrolll">
+
+        <Button
+            android:id="@+id/devamet"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="Alışverişe Devam ET"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    tools:context="com.sirket.javaloper.androidapp.UrunAyrinti">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="15dp"
+        android:background="@android:drawable/spinner_background">
+
+        <ImageView
+            android:id="@+id/sip_resim"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="31dp" />
+
+        <TextView
+            android:id="@+id/sip_baslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/sip_resim"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/sip_resim"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/sip_acikla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/sip_baslik"
+            android:layout_centerVertical="true"
+            android:text="TextView"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/sip_fiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sip_resim"
+            android:layout_alignStart="@+id/sip_acikla"
+            android:text="TextView"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
